@@ -27,3 +27,7 @@ class Cuenta:
         #mostra detalles de cuenta
     def mostrardatos(self):
         print(f"=== datos ===\n-> {self.nombre}\n-> edad: {self.edad}\n-> credito: {self.credito}")
+
+        #Metodo apostar, fase beta
+    def apostar(self):
+        print(f"{self.nombre} ACABAS DE HACER UNA LOKURA")
